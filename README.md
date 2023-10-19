@@ -5,9 +5,9 @@ In this project we're required to conduct a User Acceptance Test (UAT) by using 
 ## How to run the automation
 Step 1: Download project from this github repo/
 
-Step 2: Open the folder EcoPowerLogisitics folder
+Step 2: Open the folder EcoPowerLogisitics folder and locate the Desktop folder.
 
-Step 3: Click on the Main.xaml. This will open UiPath Studio on your computer
+Step 3: Click on the Main.xaml within the Desktop folder. This will open UiPath Studio on your computer
 
 Step 4: Press the blue play "Debug File" at the ribbon. This will open MS Edge browser.
 
