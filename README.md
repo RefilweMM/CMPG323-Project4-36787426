@@ -11,13 +11,15 @@ Step 3: Click on the Main.xaml. This will open UiPath Studio on your computer
 
 Step 4: Press the blue play "Debug File" at the ribbon. This will open MS Edge browser.
 
-Step 5: You will be prompted to login, use these login details - Email: me1@gmail.com Password: Testing@123
+Step 5: Wait for the login process to complete.
 
-Step 6: From there you can choose which tab you want to work on.
+Step 6: From there you'll be prompted to choose which tab you want to work on: Customers, Orders, Products, or Order Details
 
-Step 7: After choosing a tab, you can aslo choose if you want to add, edit, or delete.
+Step 7: After choosing a tab, you need choose if you want to add, edit, or delete.
 
-> Note! You CANNOT edit or delete if there are no items in the current page to delete or edit. Therefore you need to add first before you can delete or edit
+> Note! You need to test the CRUD operations in this order: Add first, then Edit, then Delete. This is because the automation tool updates the Excel Test Result tab after deleting i.e it will Create, Read, Update, Delete then update the test result for that specific row to true. It does this for every item in the excel row, therefore if the number of rows in the webapp does not match the number of rows in the excel, you will encounter an error. It is important to follow this order of operations.
+
+Therefore you need to 'Add' first, when done, the program will close, then you need to open it again but choose 'Edit' this time around. The program will close after editing, then you will open it again and select 'Delete' this time around. After the last operation is done the excel file will be updated.
 
 ## References
 <ul>
